@@ -1,0 +1,83 @@
+/* (universal selector) */
+*{
+    color: green;
+    /* background-color: rgb(0, 128, 0.3); */
+}
+
+/* (element selector) */
+h5{
+    color: blueviolet;
+}
+
+/* (class selector it can use only in one class and class name should be starts from .(dote)) */
+.fifth{
+    color:rgb(red, green, blue);
+}
+
+/* (ID selector) */
+#a{
+    color: blue;
+}
+/* 
+(group selector) */
+h1, p, h2{
+    color: chartreuse;
+}
+
+
+/* (descendant selector) */
+div p{
+    color: cadetblue;
+}
+
+/* (child selector) */
+div > h1{
+    color: darkblue;
+}
+
+/* (attribute selector) */
+a[href="https://sjcit.ac.in/"]{
+    color: pink;
+}
+
+
+/* (pseudo-class selector(a:hover)) */
+a[href="https://sjcit.ac.in/"]:hover {
+    color: red;
+}
+
+/* (pseudo-element selector(p::first-line)) */
+p::after {
+    content: //url(http://images6.fanpop.com/image/photos/35800000/Puppy-dogs-35894603-1920-1200.jpg);
+
+}
+
+div{
+    background-color:green;
+    opacity: 0.7;
+}
+
+div{
+ content://url(http://images6.fanpop.com/image/photos/35800000/Puppy-dogs-35894603-1920-1200.jpg);
+   opacity: 0.3;
+}
+
+body{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.PmOroqig_gjS0tdm4cZ-qQHaE8?pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+    background-size: cover;
+
+}
+
+p{
+    background-image://url("http://images6.fanpop.com/image/photos/35800000/Puppy-dogs-35894603-1920-1200.jpg") ;
+}
+
+
+body{
+    background: cadetblue  url("https://tse1.mm.bing.net/th/id/OIP.PmOroqig_gjS0tdm4cZ-qQHaE8?pid=Api&P=0&h=180") no-repeat center;
+}
